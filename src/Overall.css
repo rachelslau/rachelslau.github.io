@@ -3,8 +3,79 @@
 body, html {
   background-color: #f2e1d2;
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  width: 100vw;
+  height: 100vh;
   cursor: default;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main {
+  position: absolute;
+  left: 450px;
+  overflow: scroll;
+}
+
+.contents {
+  display: block;
+  min-width: 700px;
+}
+
+/**************** SIDEBAR ****************/
+
+.sidebar {
+  background-color: #4d687a;
+  color: #f2e1d2;
+  position: fixed;
+  z-index: 1;
+  width: 300px;
+  height: 100vh;
+  padding: 50px;
+}
+
+.my-name {
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin: auto;
+}
+
+.spacer {
+  height: 30vh;
+}
+
+.page-link {
+  text-decoration: none;
+  color: #f2e1d2;
+  font-weight: lighter;
+}
+
+.page-link:hover {
+  font-weight: bold;
+}
+
+.selected-page-link {
+  font-weight: bold;
+  cursor: default;
+}
+
+/**************** CURRENT ****************/
+
+.current-page {
+  padding: 45vh 0 0 50px;
+}
+
+.current-links {
+  text-decoration: none;
+  color: #bf6c5f;
+}
+
+.current-links:hover {
+  color: #ce8679;
 }
