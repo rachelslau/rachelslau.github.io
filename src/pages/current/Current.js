@@ -16,16 +16,16 @@ class Current extends Component {
                         <Link className="page-link selected-page-link">at the moment</Link><br /><br />
                         <Link className="page-link" to="/about">about</Link><br /><br />
                         <Link className="page-link" to="/projects">projects</Link><br /><br />
-                        <Link className="page-link" to="/photos">photos</Link><br /><br />
+                        <Link className="page-link" to="/photos-film">photos</Link><br /><br />
                     </div>
                 </div>
                 <div className="main current-page">
                     <span className="contents">
                         <b>currently</b>, i am a... <br /><br />
                         - student majoring in computer science at UC Berkeley <br /><br />
-                        - client project manager for <a className="current-links" href="https://codebase.berkeley.edu/">Codebase</a> <br /><br />
-                        - urban dancer in the <a className="current-links" href="https://www.facebook.com/BerkeleyDanceCommunity/">Berkeley Dance Community</a> <br /><br />
-                        - <a className="current-links" href="http://www.aqualillies.com/">aqualilly</a>
+                        - client project manager for <a className="href-links" href="https://codebase.berkeley.edu/">Codebase</a> <br /><br />
+                        - urban dancer in the <a className="href-links" href="https://www.facebook.com/BerkeleyDanceCommunity/">Berkeley Dance Community</a> <br /><br />
+                        - <a className="href-links" href="http://www.aqualillies.com/">aqualilly</a>
                         <br /><br /><br /><br />
                         in the <b>future</b>, i will be a... <br /><br />
                         - summer 2020 software engineer at Facebook

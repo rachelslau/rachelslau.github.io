@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../../Overall.css';
 
-class Projects extends Component {
+class Film extends Component {
     render() {
         return (
             <div>
@@ -15,13 +15,21 @@ class Projects extends Component {
                     <div className="menu">
                         <Link className="page-link" to="/">at the moment</Link><br /><br />
                         <Link className="page-link" to="/about">about</Link><br /><br />
-                        <Link className="page-link selected-page-link">projects</Link><br /><br />
-                        <Link className="page-link" to="/photos-film">photos</Link><br /><br />
+                        <Link className="page-link" to="/projects">projects</Link><br /><br />
+                        <Link className="page-link selected-page-link">photos</Link><br /><br />
                     </div>
+                </div>
+                <div className="main photos-page">
+                    <span className="contents">
+                        <div className="photo-sections">
+                            <Link className="subpage-link selected-subpage-link">film</Link>
+                            <Link className="subpage-link" to="/photos-iphone">iphone</Link>
+                        </div>
+                    </span>
                 </div>
             </div>
         );
     }
 }
 
-export default Projects;
+export default Film;

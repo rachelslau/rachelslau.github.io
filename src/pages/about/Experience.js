@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../../Overall.css';
 
-class About extends Component {
+class Experience extends Component {
     render() {
         return (
             <div>
@@ -22,8 +22,8 @@ class About extends Component {
                 <div className="main about-page">
                     <span className="contents">
                         <div className="about-sections">
-                            <Link className="subpage-link selected-subpage-link">who is she?</Link>
-                            <Link className="subpage-link" to="/about-experience">experience</Link>
+                            <Link className="subpage-link" to="/about">who is she?</Link>
+                            <Link className="subpage-link selected-subpage-link">experience</Link>
                             <Link className="subpage-link" to="/about-hobbies">hobbies</Link>
                         </div>
                     </span>
@@ -31,6 +31,6 @@ class About extends Component {
             </div>
         );
     }
-  }
+}
 
-export default About;
+export default Experience;

@@ -27,15 +27,42 @@ p {
   min-width: 700px;
 }
 
+.href-links {
+  text-decoration: none;
+  color: #bf6c5f;
+}
+
+.href-links:hover {
+  color: #ce8679;
+}
+
+.subpage-link {
+  display: inline-block;
+  margin: 0 10% 0 10%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.subpage-link:hover {
+  color: #bf6c5f;
+}
+
+.selected-subpage-link {
+  color: #bf6c5f;
+  cursor: default;
+}
+
 /**************** SIDEBAR ****************/
 
 .sidebar {
   background-color: #4d687a;
   color: #f2e1d2;
   position: fixed;
+  overflow-y: scroll;
   z-index: 1;
+  top: 0;
+  bottom: 0;
   width: 300px;
-  height: 100vh;
   padding: 50px;
 }
 
@@ -68,14 +95,16 @@ p {
 /**************** CURRENT ****************/
 
 .current-page {
-  padding: 45vh 0 0 50px;
+  padding: 45vh 0 50px 50px;
 }
 
-.current-links {
-  text-decoration: none;
-  color: #bf6c5f;
+/**************** ABOUT ****************/
+
+.about-page {
+
 }
 
-.current-links:hover {
-  color: #ce8679;
+.about-sections {
+  display: block;
+  padding: 25px;
 }
