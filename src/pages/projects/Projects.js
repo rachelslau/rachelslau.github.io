@@ -6,7 +6,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <Sidebar />
+                <Sidebar Projects="selected-page-link" />
             </div>
         );
     }

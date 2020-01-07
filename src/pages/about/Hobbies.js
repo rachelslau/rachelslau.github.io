@@ -7,13 +7,13 @@ class Hobbies extends Component {
     render() {
         return (
             <div>
-                <Sidebar />
+                <Sidebar About="selected-page-link"/>
                 <div className="main about-page">
                     <span className="contents">
                         <div className="about-sections">
                             <Link className="subpage-link" to="/about">who is she?</Link>
-                            <Link className="subpage-link">experience</Link>
-                            <Link className="subpage-link selected-subpage-link" to="/about-hobbies">hobbies</Link>
+                            <Link className="subpage-link" to="/about-experience">experience</Link>
+                            <Link className="subpage-link selected-subpage-link">hobbies</Link>
                         </div>
 
                     </span>

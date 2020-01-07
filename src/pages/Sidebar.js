@@ -12,10 +12,10 @@ class Sidebar extends Component {
             </div>
             <div className="spacer"></div>
             <div className="menu">
-                <Link className="page-link" to="/">at the moment</Link><br /><br />
-                <Link className="page-link" to='/about'>about</Link><br /><br />
-                <Link className="page-link" to="/projects">projects</Link><br /><br />
-                <Link className="page-link" to="/photos-film">photos</Link><br /><br />
+                <Link className={ "page-link " + ( this.props.Current || "") } to="/">at the moment</Link><br /><br />
+                <Link className={ "page-link " + ( this.props.About || "") } to='/about'>about</Link><br /><br />
+                <Link className={ "page-link " + ( this.props.Projects || "") } to="/projects">projects</Link><br /><br />
+                <Link className={ "page-link " + ( this.props.Photos || "") } to="/photos-film">photos</Link><br /><br />
             </div>
         </div>
     );

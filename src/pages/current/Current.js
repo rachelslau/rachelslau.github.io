@@ -6,7 +6,7 @@ class Current extends Component {
     render() {
         return (
             <div>
-                <Sidebar />
+                <Sidebar Current="selected-page-link"/>
                 <div className="main current-page">
                     <span className="contents">
                         <b>currently</b>, i am a... <br /><br />

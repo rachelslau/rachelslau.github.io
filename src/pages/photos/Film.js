@@ -7,7 +7,7 @@ class Film extends Component {
     render() {
         return (
             <div>
-                <Sidebar />
+                <Sidebar Photos="selected-page-link"/>
                 <div className="main photos-page">
                     <span className="contents">
                         <div className="photo-sections">

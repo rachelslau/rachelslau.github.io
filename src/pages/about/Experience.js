@@ -7,7 +7,7 @@ class Experience extends Component {
     render() {
         return (
             <div>
-                <Sidebar />
+                <Sidebar About="selected-page-link"/>
                 <div className="main about-page">
                     <span className="contents">
                         <div className="about-sections">
