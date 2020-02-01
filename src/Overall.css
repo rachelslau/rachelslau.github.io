@@ -98,6 +98,12 @@ p {
   padding: 45vh 0 50px 50px;
 }
 
+.disclaimer {
+  position: absolute;
+  top: 30vh;
+  left: 50px;
+}
+
 /**************** ABOUT ****************/
 
 .about-page {
@@ -107,4 +113,43 @@ p {
 .about-sections {
   display: block;
   padding: 25px;
+}
+
+.profile-pic {
+  margin-bottom: 50px;
+}
+
+/**************** HOBBY ****************/
+
+.ihobby {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
+.ihobby-title {
+  font-family: 'Heebo', sans-serif;
+  color: #ffffff;
+}
+
+.ihobby-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.ihobby-overlay:hover {
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.ihobby-text {
+
 }

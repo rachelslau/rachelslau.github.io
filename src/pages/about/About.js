@@ -15,6 +15,13 @@ class About extends Component {
                             <Link className="subpage-link" to="/about-experience">experience</Link>
                             <Link className="subpage-link" to="/about-hobbies">hobbies</Link>
                         </div>
+                        <div>
+                            hi there! my name is rachel. welcome! <br />
+                            born and raised in the silicon valley, i have followed the tech industry by pursuing computer science
+                            (only after considering medicine, business, math, cognitive, and data science).
+                            while the major i have chosen aligns with my left-brained dominance,
+                            i am trying to build and maintian creative outlets as to not get stuck in too analytical of a mindset.
+                        </div>
                     </span>
                 </div>
             </div>

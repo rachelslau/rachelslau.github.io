@@ -11,8 +11,8 @@ class Film extends Component {
                 <div className="main photos-page">
                     <span className="contents">
                         <div className="photo-sections">
-                            <Link className="subpage-link selected-subpage-link">film</Link>
-                            <Link className="subpage-link" to="/photos-iphone">iphone</Link>
+                            {/* <Link className="subpage-link selected-subpage-link">film</Link>
+                            <Link className="subpage-link" to="/photos-iphone">iphone</Link> */}
                         </div>
                     </span>
                 </div>
